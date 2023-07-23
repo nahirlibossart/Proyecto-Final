@@ -1,0 +1,155 @@
+/* Color bordó: 9E0059
+ amarillo: FFBD00
+ rosa: FF0054
+naranja: FF5400
+*/
+@font-face {
+    font-family: "indie flower";
+    src: url(../assets/Indie\ Flower\ Fuente/);
+}
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    color: bisque;
+    background-color: #FF0054;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*HEADER*/
+header {
+    background-color: #FF0054;
+    height: 14VH;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 33px;
+    display: flex;
+    -webkit-text-stroke: 1px #9E0059;
+}
+
+h2 {
+    background-color: #FF0054;
+    display: flex;
+    font-family: "indie flower";
+    font-size: 31px;
+    -webkit-text-stroke: 0.00001px #FFBD00;
+    z-index: 1;
+}
+
+h3 {
+    display: flex;
+    position: relative;
+    font-size: 25px;
+    z-index: 1;
+
+}
+
+/*MAIN*/
+main {
+    display: grid;
+   }
+.foto-portada {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.portada {
+    background-color: #FF0054;
+    height: 41vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: flex-start;
+   }
+
+.foto-portada {
+    padding: 10px;
+    background-color: #FF0054;
+}
+
+p {
+    display: flex;
+    margin-left: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    color: #9E0059;
+    width: 400px;
+}
+
+.navbar-uno {
+    flex-direction: column;
+}
+.navbar-dos {
+    display: flex;
+}
+
+.boton-2 {
+    background-color: #FF0054;
+    color: #FFBD00;
+    display: flex;
+    justify-content: center;
+}
+
+.boton:hover {
+    color: #9E0059;
+}
+
+.menu-navegacion-dos {
+    background-color: #FF0054;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav ul li a {
+    color: #FFBD00;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #9E0059;
+}
+
+.mapa {
+    background-color: #FF0054;
+    padding: 10px;
+}
+
+/* FOOTER*/
+footer {
+    background-color: #FF0054;
+    text-align: center;
+}
+
+/* PAGES*/
+h4 {
+    font-size: 40px;
+    text-align: center;
+    color: #FFBD00;
+}
+
+
+
+div.galeriaquehacer img {
+    height: 50%;
+    width: 50%;
+}
+
+div.galeriacasablanca img {
+    height: 25%;
+    width: 25%;
+}
+
+div.galeriacasaroja img {
+    height: 25%;
+    width: 25%;
+}
+
