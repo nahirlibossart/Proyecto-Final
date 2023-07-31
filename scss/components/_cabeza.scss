@@ -1,0 +1,21 @@
+.encabezado {
+    background-color: $fondo-coral;
+    height: 14vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    &_titulo {
+        font-size: 33px;
+        display: flex;
+        -webkit-text-stroke: 1px $bordo;
+    }
+
+    &_subtitulo {
+        background-color: $fondo-coral;
+        display: flex;
+        font-family: $fuente-logo;
+        font-size: 31px;
+        -webkit-text-stroke: 0.00001px $naranja;
+    }
+}

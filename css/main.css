@@ -1,0 +1,41 @@
+/* COLORES */
+/* FUENTES*/
+* {
+  font-family: "Ubuntu", sans-serif;
+  color: bisque;
+  background-color: #FF0054;
+  padding: 0px;
+  margin: 0px; }
+
+.encabezado {
+  background-color: #FF0054;
+  height: 14vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+  .encabezado_titulo {
+    font-size: 33px;
+    display: flex;
+    -webkit-text-stroke: 1px #9E0059; }
+  .encabezado_subtitulo {
+    background-color: #FF0054;
+    display: flex;
+    font-family: "indie flower";
+    font-size: 31px;
+    -webkit-text-stroke: 0.00001px #FFBD00; }
+
+.portada p {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 6px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 15px;
+  color: #9E0059;
+  width: 400px; }
+
+.portada_foto {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 10px;
+  background-color: #FF0054; }

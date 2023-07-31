@@ -17,7 +17,7 @@ naranja: FF5400
 }
 
 /*HEADER*/
-header {
+.encabezado {
     background-color: #FF0054;
     height: 14VH;
     width: 100%;
@@ -25,13 +25,13 @@ header {
     flex-direction: column;
 }
 
-h1 {
+.encabezado_titulo {
     font-size: 33px;
     display: flex;
     -webkit-text-stroke: 1px #9E0059;
 }
 
-h2 {
+.encabezado_subtitulo {
     background-color: #FF0054;
     display: flex;
     font-family: "indie flower";
@@ -40,13 +40,6 @@ h2 {
 }
 
 /*MAIN*/
-.foto-portada {
-    display: flex;
-    flex-direction: row-reverse;
-    padding: 10px;
-    background-color: #FF0054;
-}
-
 p {
     display: flex;
     margin-left: 30px;
@@ -56,6 +49,13 @@ p {
     font-size: 15px;
     color: #9E0059;
     width: 400px;
+}
+
+.foto-portada {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+    background-color: #FF0054;
 }
 
 .navbar-uno {
