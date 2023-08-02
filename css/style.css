@@ -8,6 +8,7 @@ naranja: FF5400
     src: url(../assets/Indie\ Flower\ Fuente/);
 }
 
+
 * {
     font-family: 'Ubuntu', sans-serif;
     color: bisque;
@@ -15,6 +16,7 @@ naranja: FF5400
     padding: 0px;
     margin: 0px;
 }
+
 
 /*HEADER*/
 .encabezado {
@@ -25,11 +27,13 @@ naranja: FF5400
     flex-direction: column;
 }
 
+
 .encabezado_titulo {
     font-size: 33px;
     display: flex;
     -webkit-text-stroke: 1px #9E0059;
 }
+
 
 .encabezado_subtitulo {
     background-color: #FF0054;
@@ -38,6 +42,7 @@ naranja: FF5400
     font-size: 31px;
     -webkit-text-stroke: 0.00001px #FFBD00;
 }
+
 
 /*MAIN*/
 p {
@@ -51,6 +56,7 @@ p {
     width: 400px;
 }
 
+
 .foto-portada {
     display: flex;
     flex-direction: row-reverse;
@@ -58,17 +64,21 @@ p {
     background-color: #FF0054;
 }
 
+
 .navbar-uno {
     flex-direction: column;
 }
 
+
 nav ul li a:hover {
-color: #FFBD00;
+    color: #FFBD00;
 }
+
 
 .navbar-dos {
     display: flex;
 }
+
 
 .boton-2 {
     background-color: #FF0054;
@@ -78,13 +88,16 @@ color: #FFBD00;
     justify-content: center;
 }
 
+
 .boton:hover {
     color: #9E0059;
 }
 
+
 .boton-2:hover {
     color: #9E0059;
 }
+
 
 nav ul li a {
     color: #FFBD00;
@@ -93,23 +106,28 @@ nav ul li a {
     text-decoration: none;
 }
 
+
 nav ul li a:hover {
     background-color: #9E0059;
 }
 
+
 .contenedor-cards {
     margin-top: 10px;
 }
+
 .mapa {
     background-color: #FF0054;
     padding: 10px;
 }
+
 
 /* FOOTER*/
 footer {
     background-color: #FF0054;
     text-align: center;
 }
+
 
 /* PAGES*/
 h4 {
@@ -118,15 +136,18 @@ h4 {
     color: #FFBD00;
 }
 
-.contenedor-fotos{
+
+.contenedor-fotos {
     margin-top: 5px;
     padding: 5px;
 }
+
 
 div.galeriacasablanca img {
     height: 25%;
     width: 25%;
 }
+
 
 div.galeriacasaroja img {
     height: 25%;
@@ -134,3 +155,50 @@ div.galeriacasaroja img {
 }
 
 
+/* PAGE CONTACTO */
+.contenido-formulario {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    width: 1000px;
+}
+
+.contenido-formulario h5 {
+    color: #FFBD00;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 17px;
+}
+
+input,
+textarea {
+    padding: 17px 14px;
+    background-color: bisque;
+    border: 0;
+    font-size: 15px;
+    color: #9E0059;
+    margin-bottom: 20px;
+}
+
+:focus {
+    outline: 3px solid #FFBD00;
+
+}
+
+.boton-enviar {
+    background-color: #9E0059;
+    color: bisque;
+}
+
+.boton-enviar:hover {
+    background-color: black;
+}
