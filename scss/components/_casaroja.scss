@@ -1,0 +1,20 @@
+/*PAGE CASA ROJA*/
+h4 {
+    @include h4;
+}
+
+.card-galeria-casas {
+    padding: 3px;
+    margin: 10px;
+
+    &_item-img {
+        height: 450px;
+    }
+
+    &_texto {
+        color: $bordo;
+        text-align: left;
+        font-style: normal;
+        font-weight: bold;
+    }
+}

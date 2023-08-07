@@ -1,0 +1,50 @@
+/* PAGE CONTACTO*/
+h4 {
+    @include h4;
+}
+
+.contenedor-formulario {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    width: 1000px;
+
+    & h5 {
+        color: $naranja;
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+    &_form {
+        @include dflex-fdircol;
+
+        &_label {
+            font-size: 17px;
+
+            &_input,
+            &_textarea {
+                padding: 17px 14px;
+                background-color: $amarillo;
+                border: 0;
+                font-size: 15px;
+                color: $bordo;
+                margin-bottom: 20px;
+
+                &:focus {
+                    outline: 3px solid $naranja;
+                }
+
+            }
+
+            &_boton-enviar {
+                background-color: $bordo;
+                color: $amarillo;
+
+                &:hover {
+                    background-color: black;
+                }
+            }
+        }
+    }
+}

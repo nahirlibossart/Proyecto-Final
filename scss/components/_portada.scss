@@ -1,20 +1,12 @@
+/* PORTADA*/
 .portada {
 
-    p {
-        display: flex;
-        margin-left: 30px;
-        margin-top: 6px;
-        font-style: italic;
-        font-weight: bold;
-        font-size: 15px;
-        color: $bordo;
-        width: 400px;
+    display: flex;
+    &_texto {
+        @include par-ident;
     }
 
     &_foto {
-        display: flex;
-        flex-direction: row-reverse;
-        padding: 10px;
-        background-color: $fondo-coral;
+        @include pad-bkgcolor(10px);
     }
 }

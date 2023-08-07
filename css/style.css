@@ -8,7 +8,6 @@ naranja: FF5400
     src: url(../assets/Indie\ Flower\ Fuente/);
 }
 
-
 * {
     font-family: 'Ubuntu', sans-serif;
     color: bisque;
@@ -16,7 +15,6 @@ naranja: FF5400
     padding: 0px;
     margin: 0px;
 }
-
 
 /*HEADER*/
 .encabezado {
@@ -27,13 +25,11 @@ naranja: FF5400
     flex-direction: column;
 }
 
-
 .encabezado_titulo {
     font-size: 33px;
     display: flex;
     -webkit-text-stroke: 1px #9E0059;
 }
-
 
 .encabezado_subtitulo {
     background-color: #FF0054;
@@ -43,9 +39,12 @@ naranja: FF5400
     -webkit-text-stroke: 0.00001px #FFBD00;
 }
 
-
 /*MAIN*/
-p {
+.portada {
+    display: flex;
+}
+
+.portada_texto {
     display: flex;
     margin-left: 30px;
     margin-top: 6px;
@@ -56,64 +55,54 @@ p {
     width: 400px;
 }
 
-
-.foto-portada {
-    display: flex;
-    flex-direction: row-reverse;
+.portada_foto {
     padding: 10px;
     background-color: #FF0054;
 }
 
-
-.navbar-uno {
+.nav-uno {
     flex-direction: column;
 }
 
-
-nav ul li a:hover {
+.nav-uno_texto {
     color: #FFBD00;
-}
-
-
-.navbar-dos {
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
     display: flex;
+    justify-content: center;
 }
 
+.nav-uno_texto:hover {
+    background-color: #9E0059;
+}
 
-.boton-2 {
+.nav-dos_cont-cards {
+    margin-top: 10px;
+}
+
+.nav-dos_cont-cards_item-card {
+    padding: 3px;
+}
+
+.nav-dos_cont-cards_item-card_btn-dos {
     background-color: #FF0054;
-    font-size: 18px;
     color: #FFBD00;
     display: flex;
     justify-content: center;
 }
 
-
-.boton:hover {
-    color: #9E0059;
-}
-
-
-.boton-2:hover {
-    color: #9E0059;
-}
-
-
-nav ul li a {
+.nav-dos_cont-cards_item-card_btn-dos_texto {
     color: #FFBD00;
-    font-size: 25px;
+    font-style: normal;
+    font-size: 20px;
     font-weight: bold;
-    text-decoration: none;
+    display: flex;
+    justify-content: center;
 }
 
-
-nav ul li a:hover {
+.nav-dos_cont-cards_item-card_btn-dos_texto:hover {
     background-color: #9E0059;
-}
-
-
-.contenedor-cards {
-    margin-top: 10px;
 }
 
 .mapa {
@@ -121,42 +110,77 @@ nav ul li a:hover {
     padding: 10px;
 }
 
-
 /* FOOTER*/
 footer {
     background-color: #FF0054;
     text-align: center;
 }
 
-
 /* PAGES*/
+/* PAGE QUIENES SOMOS */
 h4 {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     color: #FFBD00;
 }
 
-
-.contenedor-fotos {
-    margin-top: 5px;
-    padding: 5px;
+.texto-identidad {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 6px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    color: #9E0059;
+    width: 400px;
 }
 
-
-div.galeriacasablanca img {
-    height: 25%;
-    width: 25%;
+.contenedor-foto-familia {
+    display: flex;
+    justify-content: center;
 }
 
-
-div.galeriacasaroja img {
-    height: 25%;
-    width: 25%;
+/* PAGE QUE HACER*/
+h4 {
+    font-size: 30px;
+    text-align: center;
+    color: #FFBD00;
 }
 
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: #9E0059;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.card-galeria-que-hacer {
+    padding: 3px;
+    margin: 10px;
+}
+
+.card-galeria-que-hacer_item-img {
+    height: 450px;
+}
+
+.card-galeria-que-hacer_texto {
+    color: #FFBD00;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+}
 
 /* PAGE CONTACTO */
-.contenido-formulario {
+h4 {
+    font-size: 30px;
+    text-align: center;
+    color: #FFBD00;
+}
+
+.contenedor-formulario {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -164,22 +188,22 @@ div.galeriacasaroja img {
     width: 1000px;
 }
 
-.contenido-formulario h5 {
+.contenedor-formulario h5 {
     color: #FFBD00;
     font-size: 30px;
     margin-bottom: 25px;
 }
 
-form {
+.contenedor-formulario_form {
     display: flex;
     flex-direction: column;
 }
 
-label {
+.contenedor-formulario_form_label {
     font-size: 17px;
 }
 
-input,
+.contenedor-formulario_form_label_input,
 textarea {
     padding: 17px 14px;
     background-color: bisque;
@@ -191,14 +215,54 @@ textarea {
 
 :focus {
     outline: 3px solid #FFBD00;
-
 }
 
-.boton-enviar {
+.contenedor-formulario_form_boton-enviar {
     background-color: #9E0059;
     color: bisque;
 }
 
-.boton-enviar:hover {
+.contenedor-formulario_form_boton-enviar:hover {
     background-color: black;
+}
+
+/* PAGE CASAROJA/ CASABLANCA*/
+h4 {
+    font-size: 30px;
+    text-align: center;
+    color: #FFBD00;
+}
+
+.card-galeria-casas {
+    padding: 3px;
+    margin: 10px;
+}
+
+.card-galeria-casas_item-img {
+    height: 450px;
+}
+
+.card-galeria-casas_texto {
+    color: #9E0059;
+    text-align: left;
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* ESTILO ENLACE WHATSAPP*/
+a svg {
+    background-color: transparent;
+    position: fixed;
+    top: 70vh;
+    right: 2vw;
+    z-index: 1;
+}
+
+/* ESTILO ENLACE HOME*/
+.icono-home {
+    background-color: transparent;
+    position: fixed;
+    top: 30vh;
+    right: 2vw;
+    z-index: 1;
 }

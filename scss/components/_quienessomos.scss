@@ -1,0 +1,13 @@
+/* PAGE QUIENES SOMOS */
+h4 {
+   @include h4;
+}
+
+.texto-identidad {
+    @include par-ident;
+}
+
+.contenedor-foto-familia {
+    @include dflex-juscenter;
+}
+

@@ -1,0 +1,46 @@
+@mixin dflex-juscenter {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin dflex-fdircol {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin texto-btn {
+    color: $naranja;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+    @include dflex-juscenter;
+}
+
+@mixin par-ident {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 6px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    color: #9E0059;
+    width: 400px;
+}
+
+@mixin fonts-color($fonts, $color) {
+    font-size: $fonts;
+    color: $color
+}
+
+@mixin pad-bkgcolor($pad) {
+    padding: $pad;
+    background-color: $fondo-coral;
+}
+
+@mixin h4 {
+    font-size: 30px;
+    text-align: center;
+    color: #FFBD00;
+}
+
+

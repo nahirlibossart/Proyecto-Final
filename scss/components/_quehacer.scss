@@ -1,0 +1,31 @@
+/* PAGE QUE HACER*/
+h4 {
+    @include h4;
+}
+
+nav ul li {
+    list-style: none;
+
+    & a {
+        color: $bordo;
+        font-size: 23px;
+        text-decoration: none;
+    }
+}
+
+.card-galeria-que-hacer {
+    padding: 3px;
+    margin: 10px;
+
+    &_item-img {
+        height: 450px;
+    }
+
+    &_texto {
+        color: $naranja;
+        text-align: center;
+        font-style: normal;
+        font-weight: bold;
+    }
+
+}

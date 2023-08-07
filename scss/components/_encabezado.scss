@@ -1,9 +1,9 @@
+/* ENCABEZADO*/
 .encabezado {
     background-color: $fondo-coral;
     height: 14vh;
     width: 100%;
-    display: flex;
-    flex-direction: column;
+    @include dflex-fdircol;
 
     &_titulo {
         font-size: 33px;

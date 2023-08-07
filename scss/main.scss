@@ -1,4 +1,22 @@
-@import "./vars";
+/* RESET*/
+ @import "./vars";
 @import "./reset";
-@import "./components/cabeza";
-@import "./components/portada"
+@import "./components/mixin";
+
+/* LAYOUT*/
+@import "./components/encabezado";
+@import "./components/portada";
+@import "./components/nav-uno";
+@import "./components/nav-dos";
+@import "./components/mapa";
+@import "./components/footer";
+
+/* PAGES*/
+@import "./components/quienessomos";
+@import "./components/quehacer";
+@import "./components/contacto";
+@import "./components/casaroja";
+@import "./components/casablanca";
+@import "./components/enlace-home";
+
+@import "./components/enlace-whatsapp";

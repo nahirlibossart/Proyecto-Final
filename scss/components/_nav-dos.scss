@@ -1,0 +1,22 @@
+/* NAVEGABLE DOS INDEX*/
+.nav-dos_cont-cards {
+    margin-top: 10px;
+
+    &_item-card {
+        padding: 3px;
+
+        &_btn-dos {
+            background-color: $fondo-coral;
+            color: #FFBD00;
+            @include dflex-juscenter;
+
+            &_texto {
+                @include texto-btn;
+
+                &:hover {
+                    background-color: $bordo;
+                }
+            }
+        }
+    }
+}
