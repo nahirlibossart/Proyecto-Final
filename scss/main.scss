@@ -1,5 +1,5 @@
-/* RESET*/
- @import "./vars";
+/* RESET */
+@import "./vars";
 @import "./reset";
 @import "./components/mixin";
 
@@ -7,16 +7,17 @@
 @import "./components/encabezado";
 @import "./components/portada";
 @import "./components/nav-uno";
+@import "./components/btn-responsive";
 @import "./components/nav-dos";
 @import "./components/mapa";
 @import "./components/footer";
 
 /* PAGES*/
+@import "./components/nav-tres";
 @import "./components/quienessomos";
 @import "./components/quehacer";
 @import "./components/contacto";
-@import "./components/casaroja";
-@import "./components/casablanca";
-@import "./components/enlace-home";
+@import "./components/casas";
 
 @import "./components/enlace-whatsapp";
+@import "./components/enlace-home";

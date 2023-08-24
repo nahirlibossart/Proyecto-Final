@@ -4,18 +4,38 @@
     height: 14vh;
     width: 100%;
     @include dflex-fdircol;
+    @include gradiente;
 
-    &_titulo {
+    &__titulo {
         font-size: 33px;
         display: flex;
         -webkit-text-stroke: 1px $bordo;
+        @include gradiente;
+
+        animation-name: slide-right;
+        animation-timing-function: infinite;
+        animation-duration: 25s;
+        animation-delay: 1s;
     }
 
-    &_subtitulo {
+    @keyframes slide-right {
+        0% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+
+        100% {
+            transform: translateX(700px);
+            opacity: 0;
+        }
+    }
+
+    &__subtitulo {
         background-color: $fondo-coral;
         display: flex;
         font-family: $fuente-logo;
         font-size: 31px;
         -webkit-text-stroke: 0.00001px $naranja;
+        @include gradiente;
     }
 }

@@ -1,13 +1,26 @@
 /* PAGE QUIENES SOMOS */
-h4 {
-   @include h4;
+.contenedor-qs {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+    &__texto-identidad {
+        @include parrafo;
+        margin-top: 20px;
+        align-items: center;
+        @include fonts-s-w (15px)
+    }
+
+    &__foto-familia {
+        margin: 30px;
+        @include dflex-juscenter;
+        width: 80vw;
+        height: 50vh;
+    }
 }
 
-.texto-identidad {
-    @include par-ident;
+.cont-audio {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
 }
-
-.contenedor-foto-familia {
-    @include dflex-juscenter;
-}
-

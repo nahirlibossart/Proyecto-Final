@@ -1,9 +1,5 @@
-/* PAGE CONTACTO*/
-h4 {
-    @include h4;
-}
-
-.contenedor-formulario {
+/* PAGE CONTACTO */
+.cont-form {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,38 +8,51 @@ h4 {
 
     & h5 {
         color: $naranja;
-        font-size: 30px;
+        @include fonts-s-w (17px);
         margin-bottom: 25px;
     }
 
-    &_form {
+    &__seguridad {
+        color: $negro;
+        font-size: 11px;
+    }
+
+    &__form {
         @include dflex-fdircol;
 
-        &_label {
-            font-size: 17px;
+        &__label {
+            font-size: 15px;
 
-            &_input,
-            &_textarea {
-                padding: 17px 14px;
-                background-color: $amarillo;
-                border: 0;
-                font-size: 15px;
-                color: $bordo;
-                margin-bottom: 20px;
+            &__input {
+                @include celdas;
 
                 &:focus {
-                    outline: 3px solid $naranja;
+                    @include foco-celda;
                 }
-
             }
 
-            &_boton-enviar {
-                background-color: $bordo;
-                color: $amarillo;
+            &__textarea {
+                @include celdas;
 
-                &:hover {
-                    background-color: black;
+                &:focus {
+                    @include foco-celda;
                 }
+            }
+        }
+
+        &__btn-enviar {
+            border: 0;
+            border-radius: 5px;
+            background-color: $bordo;
+            color: $amarillo;
+            cursor: pointer;
+
+            &:hover {
+                background-color: $naranja;
+            }
+
+            &:focus {
+                outline: 3px solid #FFBD00;
             }
         }
     }

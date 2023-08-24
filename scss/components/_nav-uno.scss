@@ -1,12 +1,14 @@
-/* NAVEGABLE UNO INDEX*/
+/* NAV-UNO INDEX*/
 .nav-uno {
+&__tab {
     flex-direction: column;
 
-    &_texto {
+    &__texto {
         @include texto-btn;
 
         &:hover {
             background-color: $bordo;
         }
     }
+}
 }

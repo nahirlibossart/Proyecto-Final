@@ -6,25 +6,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- META -->
+    <title> Pupurrupicum Alquiler Temporal Mendoza en Ruta del Vino- Casa Blanca </title>
+    <meta name="description"
+        content="Descubre la encantadora Casa Blanca en Pupurrupicum Alquiler Temporal en Ruta del Vino. Sumérgete en la comodidad y el encanto de esta casa de alquiler en Las Compuertas, Mendoza, con vista a la montaña y la belleza de la Ruta del Vino. Experimenta una estadía inolvidable en medio del entorno enológico y natural de la región.">
+    <meta name="keywords"
+        content="Casa Blanca Pupurrupicum, Alquiler de casa enológica, Hospedaje en Casa Blanca, Experiencia Casa Blanca, Encanto rural en Las Compuertas, Ruta del Vino, Las Compuertas, Comodidad enológica, Estadía vinícola, Casa de alquiler en Mendoza, Relajación en Casa Blanca, Entorno enológico, Belleza natural de Mendoza, Vacaciones enológicas en Casa Blanca, Casa rural y enológica, Detalles de Casa Blanca, Disfruta de la Ruta del Vino, Escapada vinícola en Las Compuertas, Vistas panorámicas desde Casa Blanca, Hospedaje boutique en Mendoza">
+
     <!-- GOOGLE FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-
-
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-    <title>Ruta Del Vino</title>
-
 
     <!-- LINK BS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
-
     <!-- LINK CSS-->
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/main.css">
 </head>
 
 
@@ -33,147 +36,244 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-xs-12 col-md-12 col-xxl-12">
-                <header class="encabezado">
-                    <h1 class="encabezado_titulo">
-                        Ruta Del Vino
-                    </h1>
-                    <h2 class="encabezado_subtitulo">
-                        Pupurrupicum Alquiler Temporal
-                    </h2>
-                </header>
+                <section class="encabezado">
+                    <header>
+                        <h1 class="encabezado__titulo">
+                            Ruta Del Vino
+                        </h1>
+                        <h2 class="encabezado__subtitulo">
+                            Pupurrupicum Alquiler Temporal
+                        </h2>
+                    </header>
+                </section>
             </div>
         </div>
     </div>
 
-
     <main>
         <div class="container-fluid">
-
-
-            <div class="col-xs-12 col-md-12 col-xxl-12">
-                <!-- IMG BS -->
-                <div class="container-fluid foto-portada">
-
-
-                    <img src="../assets/bonitas-ramas-flores-rosas (4).jpg" class="img-fluid" alt="Foto Rama Cerezo">
+            <section class="portada">
+                <div class="col-xs-12 col-md-12 col-xxl-12">
+                    <!-- IMG BS -->
+                    <div class="container-fluid portada__foto">
+                        <img src="../assets/ramas_flores_cerezo.webp" class="img-fluid" alt="Foto Rama Cerezo">
+                    </div>
                 </div>
-            </div>
+            </section>
         </div>
-        <h4>
-            Casa Blanca
-        </h4>
 
-        <!-- CARD BS INICIO (width modificado)-->
-        <div class="container-fluid contenedor-cards">
-            <!-- PRIMERA FILA INICIO-->
-            <div class="row">
-                <div class="col-xs-12 col-md-6 col-xxl-4">
-                    <div class="card card-galeria-casas" style="width: 100%;">
-                        <img class="card-galeria-casas_item-img" src="../Fotos Casas/Casa Blanca/Habitación_Principal.jpg"
-                            class="card-img-top" alt="Foto Habitación Principal">
-                        <div class="card-body">
-                            <p class="card-text card-galeria-casas_texto"> Habitación principal con cama de dos plazas. Climatizada
-                            </p>
-                        </div>
+        <!-- NAVBAR BS/ NAV-TRES SCSS-->
+        <div class="container-fluid">
+            <section class="nav-tres">
+                <div class="row">
+                    <div class="col">
+                        <!-- NAVBAR BS INICIO-->
+                        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                            <div class="container-fluid">
+                                <button class="navbar-toggler btn-resp" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                    aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon btn-resp__icono"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav">
+                                        <li>
+                                            <a class="nav-link active" aria-current="page"
+                                                href="../pages/casaroja.html">
+                                                <p class="nav-tres__texto"> Casa Roja </p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-link active" aria-current="page"
+                                                href="../pages/quienessomos.html">
+                                                <p class="nav-tres__texto"> Quiénes Somos </p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-link active" aria-current="page"
+                                                href="../pages/quehacer.html">
+                                                <p class="nav-tres__texto"> Qué Hacer </p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-link active" aria-current="page"
+                                                href="../pages/contacto.html">
+                                                <p class="nav-tres__texto"> Contacto </p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                        <!-- NAVBAR BS FIN-->
                     </div>
                 </div>
-                <div class="col-xs-12 col-md-6 col-xxl-4">
-                    <div class="card card-galeria-casas" style="width: 100%;">
-                        <img class="card-galeria-casas_item-img" src="../Fotos Casas/Casa Blanca/Baño_Principal.jpg" class="card-img-top"
-                            alt="Foto Baño Principal">
-                        <div class="card-body">
-                            <p class="card-text card-galeria-casas_texto"> Baño planta baja </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6 col-xxl-4">
-                    <div class="card card-galeria-casas" style="width: 100%;">
-                        <img class="card-galeria-casas_item-img" src="../Fotos Casas/Casa Blanca/Habitación_Secundaria.jpg"
-                            class="card-img-top" alt="Foto Habitación Planta Alta">
-                        <div class="card-body">
-                            <p class="card-text card-galeria-casas_texto"> Habitación en planta alta con dos camas marineras para 4
-                                huéspedes.
-                                Climatizada </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- PRIMERA FILA FIN-->
-            <!-- SEGUNDA FILA INICIO-->
-            <div class="row">
-                <div class="col-xs-12 col-md-6 col-xxl-4">
-                    <div class="card card-galeria-casas " style="width: 100%;">
-                        <img class="card-galeria-casas_item-img" src="../Fotos Casas/Casa Blanca/Baño_Secundario.jpg" class="card-img-top"
-                            alt="Foto Baño Planta Alta">
-                        <div class="card-body">
-                            <p class="card-text card-galeria-casas_texto"> Baño Planta Alta</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6 col-xxl-4">
-                    <div class="card card-galeria-casas" style="width: 100%;">
-                        <img class="card-galeria-casas_item-img" src="../Fotos Casas/Casa Blanca/Cocina_Comedor.jpg" class="card-img-top"
-                            alt="Foto Cocina Comedor">
-                        <div class="card-body">
-                            <p class="card-text card-galeria-casas_texto"> Comedor con mesa para 6 personas </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6 col-xxl-4">
-                    <div class="card card-galeria-casas" style="width: 100%;">
-                        <img class="card-galeria-casas_item-img" src="../Fotos Casas/Casa Blanca/Cocina.jpg" class="card-img-top"
-                            alt="Foto Cocina">
-                        <div class="card-body">
-                            <p class="card-text card-galeria-casas_texto"> Cocina equipada con horno eléctrico,microondas, cafetera y
-                                hervidor
-                            </p>
-                        </div>
+            </section>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 col-xxl-12">
+                        <h4>
+                            Casa Blanca
+                        </h4>
                     </div>
                 </div>
             </div>
-            <!-- SEGUNDA FILA FIN-->
-            <!-- TERCERA FILA INICIO-->
-            <div class="row">
-                <div class="col-xs-12 col-md-6 col-xxl-4">
-                    <div class="card card-galeria-casas" style="width: 100%;">
-                        <img class="card-galeria-casas_item-img" src="../Fotos Casas/Casa Blanca/Parrillera_y_Pileta.jpg"
-                            class="card-img-top" alt="Foto Parrillera y Pileta">
-                        <div class="card-body">
-                            <p class="card-text card-galeria-casas_texto"> Parrillera techada </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6 col-xxl-4">
-                    <div class="card card-galeria-casas" style="width: 100%;">
-                        <img class="card-galeria-casas_item-img" src="../Fotos Casas/Casa Blanca/Pileta_Noche.jpg" class="card-img-top"
-                            alt="Foto Pileta Noche">
-                        <div class="card-body">
-                            <p class="card-text card-galeria-casas_texto"> Piscina y parque de 800 m2 de uso exclusivo </p>
-                        </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <p class="intro-casas">
+                            La casa es de dos pisos. Está equipada con:
+                        <ul>
+                            <li> Wi-Fi sin costo adicional </li>
+                            <li> TV Smart </li>
+                            <li> Chimenea </li>
+                            <li> Vajilla </li>
+                            <li>Lavadero con lavarropas y tender </li>
+                            <li> Ropa blanca </li>
+                        </ul>
+                        </p>
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
-        <!-- TERCERA FILA FIN-->
+
+            <!-- CARD BS INICIO (width modificado)-->
+            <div class="container-fluid">
+                <section class="galeria-casas">
+                    <!-- PRIMERA FILA INICIO-->
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6 col-xxl-4">
+                            <div class="card galeria-casas__card">
+                                <img class="galeria-casas__card__img"
+                                    src="../fotos casas/casa_blanca/habitacion_principal.webp" class="card-img-top"
+                                    alt="Foto Habitación Principal">
+                                <div class="card-body">
+                                    <p class="card-text galeria-casas__card__texto"> Habitación principal con cama de
+                                        dos plazas.
+                                        Climatizada
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-6 col-xxl-4">
+                            <div class="card galeria-casas__card">
+                                <img class="galeria-casas__card__img"
+                                    src="../fotos casas/casa_blanca/banio_principal.webp" class="card-img-top"
+                                    alt="Foto Baño Principal">
+                                <div class="card-body">
+                                    <p class="card-text galeria-casas__card__texto"> Baño planta baja </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-6 col-xxl-4">
+                            <div class="card galeria-casas__card">
+                                <img class="galeria-casas__card__img"
+                                    src="../fotos casas/casa_blanca/habitacion_secundaria.webp" class="card-img-top"
+                                    alt="Foto Habitación Planta Alta">
+                                <div class="card-body">
+                                    <p class="card-text galeria-casas__card__texto"> Habitación en planta alta con dos
+                                        camas
+                                        marineras para 4
+                                        huéspedes.
+                                        Climatizada </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- PRIMERA FILA FIN-->
+                    <!-- SEGUNDA FILA INICIO-->
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6 col-xxl-4">
+                            <div class="card galeria-casas__card">
+                                <img class="galeria-casas__card__img"
+                                    src="../fotos casas/casa_blanca/banio_secundario.webp" class="card-img-top"
+                                    alt="Foto Baño Planta Alta">
+                                <div class="card-body">
+                                    <p class="card-text galeria-casas__card__texto"> Baño Planta Alta</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-6 col-xxl-4">
+                            <div class="card galeria-casas__card">
+                                <img class="galeria-casas__card__img"
+                                    src="../fotos casas/casa_blanca/cocina_comedor.webp" class="card-img-top"
+                                    alt="Foto Cocina Comedor">
+                                <div class="card-body">
+                                    <p class="card-text galeria-casas__card__texto"> Comedor con mesa para 6 personas
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-6 col-xxl-4">
+                            <div class="card galeria-casas__card">
+                                <img class="galeria-casas__card__img" src="../fotos casas/casa_blanca/cocina.webp"
+                                    class="card-img-top" alt="Foto Cocina">
+                                <div class="card-body">
+                                    <p class="card-text galeria-casas__card__texto"> Cocina equipada con horno
+                                        eléctrico,microondas, cafetera y
+                                        hervidor
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- SEGUNDA FILA FIN-->
+                    <!-- TERCERA FILA INICIO-->
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6 col-xxl-4">
+                            <div class="card galeria-casas__card">
+                                <img class="galeria-casas__card__img"
+                                    src="../fotos casas/casa_blanca/parrillera_pileta.webp" class="card-img-top"
+                                    alt="Foto Parrillera y Pileta">
+                                <div class="card-body">
+                                    <p class="card-text galeria-casas__card__texto"> Parrillera techada </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-6 col-xxl-4">
+                            <div class="card galeria-casas__card">
+                                <img class="galeria-casas__card__img" src="../fotos casas/casa_blanca/pileta_noche.webp"
+                                    class="card-img-top" alt="Foto Pileta Noche">
+                                <div class="card-body">
+                                    <p class="card-text galeria-casas__card__texto"> Piscina y parque de 800 m2 de uso
+                                        exclusivo
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-6 col-xxl-4">
+                            <div class="card galeria-casas__card">
+                                <video controls class="galeria-casas__card__video"
+                                    src="../fotos casas/casa_blanca/video_casa_blanca_comprimido.mp4"
+                                    class="card-img-top">
+                                    <div class="card-body">
+                                        <p class="card-text galeria-casas__card__texto"> Parque en invierno </p>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <!-- TERCERA FILA FIN-->
+            </section>
         </div>
         <!-- CARD FIN-->
 
         <!-- ENLACE HOME BS CON WIDTH, HEIGHT Y FILL MODIFICADO-->
-       <a href="../index.html">
-        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#FFBD00" class="bi bi-house icono-home"
-            viewBox="0 0 16 16">
-            <path
-                d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z" />
-        </svg> </a>
+        <a href="../index.html">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="#FFBD00" class="icono-home" viewBox="0 0 16 16">
+                <path
+                    d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z" />
+            </svg>
+        </a>
 
         <!-- ENLACE WHATSAPP BS CON WIDTH, HEIGHT Y FILL MODIFICADO-->
         <a href="https://wa.me/+5492613134015?text=Quiero hacer una consulta por alquiler temporal en la ruta del vino"><svg
-                xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="lime" class="bi bi-whatsapp"
-                viewBox="0 0 16 16">
+                xmlns="http://www.w3.org/2000/svg" fill="lime" viewBox="0 0 16 16">
                 <path
                     d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
-            </svg></a>
+            </svg>
+        </a>
     </main>
 
     <footer>
@@ -184,8 +284,8 @@
 
     <!-- SCRIPT BS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>

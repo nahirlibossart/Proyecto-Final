@@ -1,0 +1,34 @@
+/* PAGE CASA ROJA Y CASA BLANCA */
+.intro-casas {
+    @include intro;
+}
+
+ul li {
+    @include fonts-s-w (15px);
+    color: $bordo;
+}
+
+.galeria-casas {
+    &__card {
+        padding: 3px;
+        width: 100%;
+        height: 100%;
+
+        &__img {
+            height: 450px;
+            width: 100%;
+        }
+
+        &__texto {
+            color: $bordo;
+            text-align: left;
+            @include fonts-s-w (15px);
+            font-style: normal;
+    
+        }
+
+        &__video {
+            height: 505px;
+        }
+    }
+}

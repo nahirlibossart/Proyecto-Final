@@ -1,3 +1,12 @@
+@mixin gradiente {
+    background-image: linear-gradient(to right, $bordo, $naranja, $fondo-coral);
+}
+
+@mixin fonts-s-w ($size) {
+    font-size: $size;
+    font-weight: bold;
+}
+
 @mixin dflex-juscenter {
     display: flex;
     justify-content: center;
@@ -11,25 +20,42 @@
 @mixin texto-btn {
     color: $naranja;
     font-style: normal;
-    font-size: 20px;
-    font-weight: bold;
+    @include fonts-s-w (20px);
     @include dflex-juscenter;
 }
 
-@mixin par-ident {
+@mixin parrafo {
     display: flex;
-    margin-left: 30px;
-    margin-top: 6px;
     font-style: italic;
-    font-weight: bold;
-    font-size: 15px;
-    color: #9E0059;
-    width: 400px;
+    text-align: justify;
+    color: $bordo;
+    width: 450px;
 }
 
-@mixin fonts-color($fonts, $color) {
-    font-size: $fonts;
-    color: $color
+@mixin intro {
+    @include fonts-s-w (15px);
+    color: $bordo;
+    margin: 15px;
+
+}
+
+@mixin btn-resp {
+    margin: 5px;
+    color: white;
+}
+
+@mixin celdas {
+    padding: 10px 14px;
+    background-color: $amarillo;
+    border-radius: 5px;
+    border: 0;
+    font-size: 15px;
+    color: $bordo;
+    margin-bottom: 20px;
+}
+
+@mixin foco-celda {
+    outline: 3px solid $bordo;
 }
 
 @mixin pad-bkgcolor($pad) {
@@ -37,10 +63,11 @@
     background-color: $fondo-coral;
 }
 
-@mixin h4 {
-    font-size: 30px;
-    text-align: center;
-    color: #FFBD00;
+@mixin enlaces {
+    width: 7%;
+    height: 7%;
+    background-color: transparent;
+    position: fixed;
+    right: 0vw;
+    z-index: 1;
 }
-
-

@@ -1,0 +1,21 @@
+/* PAGES */ 
+/* NAV-TRES */
+.nav-tres {
+    &__texto {
+        color: #9E0059;
+        font-style: normal;
+        @include fonts-s-w (20px);
+        @include dflex-juscenter;
+
+        &:hover {
+            background-color: $naranja;
+        }
+    }
+}
+
+h4 {
+    margin-top: 10px;
+    @include fonts-s-w (19px);
+    text-align: center;
+    color: $naranja;
+}
