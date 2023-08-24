@@ -4,14 +4,16 @@ h5 {
     @include fonts-s-w (17px);
     display: flex;
     padding: 5px;
-    margin-left: 15px;
+    margin-top: 10px;
+    margin-left: 35px;
 }
 
 .seguridad {
     color: $negro;
     font-size: 11px;
     padding: 5px;
-    margin-left: 15px;
+    margin-top: 10px;
+    margin-left: 35px;
 }
 
 .cont-form {
@@ -19,14 +21,13 @@ h5 {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    padding: 5px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
 
     &__form {
         @include dflex-fdircol;
-        margin-top: 30px;
-
+        
         &__label {
             font-size: 15px;
 

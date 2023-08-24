@@ -18,7 +18,6 @@
   display: flex;
   flex-direction: column;
   background-image: linear-gradient(to right, #9E0059, #FFBD00, #FF0054); }
-  
   .encabezado__titulo {
     font-size: 33px;
     display: flex;
@@ -36,7 +35,6 @@
   100% {
     transform: translateX(700px);
     opacity: 0; } }
-
   .encabezado__subtitulo {
     background-color: #FF0054;
     display: flex;
@@ -48,7 +46,6 @@
 /* PORTADA*/
 .portada {
   display: flex; }
-
   .portada__texto {
     margin-top: 6px;
     margin-left: 30px;
@@ -59,7 +56,6 @@
     text-align: justify;
     color: #9E0059;
     width: 450px; }
-
   .portada__foto {
     padding: 10px;
     background-color: #FF0054;
@@ -71,7 +67,6 @@
 /* NAV-UNO INDEX*/
 .nav-uno__tab {
   flex-direction: column; }
-
   .nav-uno__tab__texto {
     color: #FFBD00;
     font-style: normal;
@@ -79,7 +74,6 @@
     font-weight: bold;
     display: flex;
     justify-content: center; }
-
     .nav-uno__tab__texto:hover {
       background-color: #9E0059; }
 
@@ -87,7 +81,6 @@
 .btn-resp {
   margin: 5px;
   color: white; }
-
   .btn-resp__icono {
     background-color: #FFBD00; }
 
@@ -97,11 +90,9 @@
   margin-top: 10px;
   width: 100%;
   height: 100%; }
-
   .nav-dos__card img {
     width: 100%;
     height: 100%; }
-
   .nav-dos__card__btn {
     background-color: #FF0054;
     color: #FFBD00;
@@ -115,7 +106,6 @@ a p {
   font-weight: bold;
   display: flex;
   justify-content: center; }
-
   a p:hover {
     background-color: #9E0059; }
 
@@ -139,7 +129,6 @@ footer {
   font-weight: bold;
   display: flex;
   justify-content: center; }
-
   .nav-tres__texto:hover {
     background-color: #FFBD00; }
 
@@ -155,7 +144,6 @@ h4 {
   display: flex;
   flex-direction: column-reverse;
   align-items: center; }
-
   .contenedor-qs__texto-identidad {
     display: flex;
     font-style: italic;
@@ -166,7 +154,6 @@ h4 {
     align-items: center;
     font-size: 15px;
     font-weight: bold; }
-
   .contenedor-qs__foto-familia {
     margin: 30px;
     display: flex;
@@ -188,12 +175,10 @@ h4 {
 
 nav ul li {
   list-style: none; }
-
   nav ul li a {
     color: #9E0059;
     font-size: 15px;
     text-decoration: none; }
-
     nav ul li a:hover {
       font-size: larger; }
 
@@ -202,7 +187,6 @@ nav ul li {
   margin: 10px;
   width: 100%;
   height: 100%; }
-
   .galeria-qh__card__img {
     height: 450px;
     width: 100%; }
@@ -220,31 +204,29 @@ h5 {
   font-weight: bold;
   display: flex;
   padding: 5px;
-  margin-left: 15px; }
+  margin-top: 10px;
+  margin-left: 35px; }
 
 .seguridad {
   color: black;
   font-size: 11px;
   padding: 5px;
-  margin-left: 15px; }
+  margin-top: 10px;
+  margin-left: 35px; }
 
 .cont-form {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  padding: 5px;
+  padding: 25px;
   display: flex;
   flex-direction: column; }
-
   .cont-form__form {
     display: flex;
-    flex-direction: column;
-    margin-top: 30px; }
-
+    flex-direction: column; }
     .cont-form__form__label {
       font-size: 15px; }
-
       .cont-form__form__label__input {
         padding: 10px 14px;
         background-color: bisque;
@@ -253,10 +235,8 @@ h5 {
         font-size: 15px;
         color: #9E0059;
         margin-bottom: 20px; }
-
         .cont-form__form__label__input:focus {
           outline: 3px solid #9E0059; }
-
       .cont-form__form__label__textarea {
         padding: 10px 14px;
         background-color: bisque;
@@ -265,20 +245,16 @@ h5 {
         font-size: 15px;
         color: #9E0059;
         margin-bottom: 20px; }
-
         .cont-form__form__label__textarea:focus {
           outline: 3px solid #9E0059; }
-
     .cont-form__form__btn-enviar {
       border: 0;
       border-radius: 5px;
       background-color: #9E0059;
       color: bisque;
       cursor: pointer; }
-
       .cont-form__form__btn-enviar:hover {
         background-color: #FFBD00; }
-
       .cont-form__form__btn-enviar:focus {
         outline: 3px solid #FFBD00; }
 
@@ -298,18 +274,15 @@ ul li {
   padding: 3px;
   width: 100%;
   height: 100%; }
-
   .galeria-casas__card__img {
     height: 450px;
     width: 100%; }
-
   .galeria-casas__card__texto {
     color: #9E0059;
     text-align: left;
     font-size: 15px;
     font-weight: bold;
     font-style: normal; }
-    
   .galeria-casas__card__video {
     height: 505px; }
 
