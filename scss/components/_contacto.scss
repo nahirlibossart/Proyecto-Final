@@ -1,24 +1,31 @@
 /* PAGE CONTACTO */
+h5 {
+    color: $naranja;
+    @include fonts-s-w (17px);
+    display: flex;
+    padding: 5px;
+    margin-left: 15px;
+}
+
+.seguridad {
+    color: $negro;
+    font-size: 11px;
+    padding: 5px;
+    margin-left: 15px;
+}
+
 .cont-form {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 50px;
-    width: 1000px;
-
-    & h5 {
-        color: $naranja;
-        @include fonts-s-w (17px);
-        margin-bottom: 25px;
-    }
-
-    &__seguridad {
-        color: $negro;
-        font-size: 11px;
-    }
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
 
     &__form {
         @include dflex-fdircol;
+        margin-top: 30px;
 
         &__label {
             font-size: 15px;

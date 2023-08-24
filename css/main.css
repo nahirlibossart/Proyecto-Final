@@ -214,26 +214,33 @@ nav ul li {
   font-weight: bold; }
 
 /* PAGE CONTACTO */
+h5 {
+  color: #FFBD00;
+  font-size: 17px;
+  font-weight: bold;
+  display: flex;
+  padding: 5px;
+  margin-left: 15px; }
+
+.seguridad {
+  color: black;
+  font-size: 11px;
+  padding: 5px;
+  margin-left: 15px; }
+
 .cont-form {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 50px;
-  width: 1000px; }
-
-  .cont-form h5 {
-    color: #FFBD00;
-    font-size: 17px;
-    font-weight: bold;
-    margin-bottom: 25px; }
-
-  .cont-form__seguridad {
-    color: black;
-    font-size: 11px; }
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column; }
 
   .cont-form__form {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    margin-top: 30px; }
 
     .cont-form__form__label {
       font-size: 15px; }
@@ -270,7 +277,6 @@ nav ul li {
       cursor: pointer; }
 
       .cont-form__form__btn-enviar:hover {
-
         background-color: #FFBD00; }
 
       .cont-form__form__btn-enviar:focus {
@@ -303,7 +309,7 @@ ul li {
     font-size: 15px;
     font-weight: bold;
     font-style: normal; }
-  
+    
   .galeria-casas__card__video {
     height: 505px; }
 
